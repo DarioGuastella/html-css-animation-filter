@@ -92,6 +92,15 @@
         left: 60%
     }    
 }
-/**************************** ESERCIZIO 13 */
 
-
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: whiteBottom 2s linear;
+}
+@keyframes whiteBottom {
+    0% {
+        right: 10%
+    }
+    50% {
+        right: 60%
+    }    
+}
