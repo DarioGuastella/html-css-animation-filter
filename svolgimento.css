@@ -104,3 +104,67 @@
         right: 60%
     }    
 }
+/**************************** ESERCIZIO 13 */
+.ex-13-button:hover .ex-13-top-white {
+    animation: onespintop 2s linear;
+    border: 1px solid gray;
+}
+
+@keyframes onespintop {
+    0% {
+        left: 20px;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;       
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: calc(100% - 10px);
+    }
+    75% {
+        left:-30px;
+        top: calc(100% - 10px);
+    }
+    90% {
+        left: -30px;
+        top: -10px;
+    }
+    100% {
+        left: 20px;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: onespinbottom 2s linear;
+    border: 1px solid gray;
+}
+
+@keyframes onespinbottom {
+    0% {
+        right: 20%;
+        top: calc(100% - 10px);
+    }
+     30% {
+        right: calc(100% - 30px);
+        top: calc(100% - 10px);      
+    }
+    45% {
+        right: calc(100% - 30px);
+        top: -10px;
+    }
+    75% {
+        right:-30px;
+        top: -10px;
+    }
+    90% {
+        right: -30px;
+        top: calc(100% - 10px);
+    }
+    100% {
+        right: 20%;
+        top: calc(100% - 10px);
+    }
+}
